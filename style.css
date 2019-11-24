@@ -1,0 +1,40 @@
+head{
+    background-color: #9DFCDE;
+}
+
+body{
+    background-color: #9DFCDE;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+#kat{
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+}
+
+#github{
+    height: 64px;
+    width: 64px;
+}
+
+#facebook{
+    height: 64px;
+    width: 64px;
+}
+
+#gmail{
+    height: 45px;
+    width: 45px;
+}
+
+button{
+    margin-bottom: 70px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>All About Me!</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" 
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Kaitlin Butler-Basham</h1>
+        <h3>Quoting Specialist</h3><br>
+        <img id=kat src="Kat 1.jpg"><br>
+        <br>
+        <h5>Technological Experience</h5>
+        <ul>
+            <li>Experience using a computer.</li>
+            <li>Experience toggling between screens.</li>
+            <li>Experience using specific statements to present to dev team for accurate coding.</li>
+        </ul><br>
+        <a href="https://github.com/kbutlerbasham">
+            <img class="zoom" id=github src="Github.png">
+        </a>
+        <a href="https://www.facebook.com/kaitlin.butlerbasham.3">
+            <img class="zoom" id=facebook src="facebook.png">
+        </a><br>
+        <button onclick="loadRepos()">Click For Repos</button>
+            <ul id="repos">
+            <li>
+                <a href="https://api.github.com/users/kbutlerbasham/repos">
+                {repo.full_name}
+                </a>
+            </li>
+            </ul>
+        <style>
+                .footer {
+                  position: fixed;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  background-color: #9DFCDE;
+                  color: black;
+                  text-align: center;
+                }
+
+                .zoom {
+                    padding: 10px;
+                    transition: transform .2s;
+                    width: 70px;
+                    height: 70px;
+                    margin: 0 auto;
+                    }
+
+                .zoom:hover {
+                    transform: scale(1.2);
+                    }
+        </style>
+            <p class="footer"><img id=gmail src="gmail.png">kaitlin.butlerbasham@gmail.com</p>
+        <script src="script.js"></script>
+    </body>
+</html>
